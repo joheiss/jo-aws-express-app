@@ -2,7 +2,8 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hi Josef, this is just Express with JS");
+    res.sendStatus(500);
+    // res.send("Hi Josef, this is just Express with JS");
 });
 
 const PORT = 8080;
